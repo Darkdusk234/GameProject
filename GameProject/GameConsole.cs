@@ -10,12 +10,15 @@ namespace GameProject
     {
         public Processor processor;
         public GraphicsCard graphicsCard;
+
+        public List<Game> games;
         
 
         public GameConsole()
         {
             processor = new Processor();
             graphicsCard = new GraphicsCard();
+            games = new List<Game>();
         }
     }
 }
